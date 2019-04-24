@@ -1,0 +1,27 @@
+{
+  "name": "create-express-app",
+  "version": "1.0.0",
+  "description": "Command line tool for initialiazing http server with Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matsakyan/create-express-app.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "matsakyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matsakyan/create-express-app/issues"
+  },
+  "homepage": "https://github.com/matsakyan/create-express-app#readme",
+  "preferGlobal": true,
+  "bin": {
+    "create-express-app": "./index.js"
+  }
+}
